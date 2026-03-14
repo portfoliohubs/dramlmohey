@@ -1,0 +1,395 @@
+baseURL = "https://portfoliohubs.github.io/dramlmohey/"
+languageCode = "en-us"
+title = "Dr. Aml Mohey Ibrahim Hassan"
+defaultContentLanguage = "en"
+
+[params]
+  # Hero Section
+  [params.hero]
+    name = "Dr. Aml Mohey Ibrahim Hassan"
+    tagline = "Internship Doctor"
+    graduation = "Graduated 2025 - Faculty of Dentistry"
+    profile_image = "https://github.com/user-attachments/assets/3f967329-8357-438e-9eee-85d922c5b0c8"
+    profile_image_alt = "Profile photo of Dr. Aml Mohey Ibrahim Hassan"
+    
+    [params.hero.current_position]
+      role = "Internship"
+      clinic = "Zagazig university hospital"
+
+  [params.seo]
+    description = "Professional dental portfolio"
+    doctor_name_en = "Dr. Aml Mohey Ibrahim Hassan"
+    doctor_name_ar = "دكتوره أمل محيي ابراهيم"
+    site_name = "Dr. Aml Mohey Ibrahim Hassan"
+    og_image = "https://github.com/user-attachments/assets/74e1338a-c924-4f1a-8c26-4cf87b99d037"
+    favicon_image = "https://github.com/user-attachments/assets/74e1338a-c924-4f1a-8c26-4cf87b99d037"
+    twitter_handle = ""
+    keywords = [
+      "dentist",
+      "dental clinic",
+      "cosmetic dentistry",
+      "restorative dentistry",
+      "Dr. Aml Mohey Ibrahim",
+      "zagazig",
+      "DENTIST IN ZAGAZIG",
+      "DENTAL CLINIC IN ZAGAZIG",
+      "DENTAL CLINIC",
+      "Doctor Amal mohey",
+      "Dentist Amal Mohey",
+      "دكتورة أمل محيي اسنان",
+      "دكتورة أمل محيي اسنان الزقازيق",
+      "أمل محيي طبيبة أسنان"
+    ]
+    keywords_ar = [
+      "طبيب أسنان",
+      "عيادة أسنان",
+      "تجميل الأسنان",
+      "ترميم الأسنان",
+      "دكتوره أمل محيي ابراهيم",
+      "طبيب بالزقازيق",
+      "عيادة بالزقازيق",
+      "دكتورة أمل محيي",
+      "عيادة أمل محيي",
+      "عيادة اسنان الشرقية",
+      "أمل محيي اسنان",
+      "د:أمل محيي إبراهيم",
+      "دكتورة أمل محيي ابراهيم كفر شكر"
+    ]
+
+  [params.integrations]
+    google_search_console_verification = "6VtKNI5qnSYsfjCTBMfnm9PuZjjR7aYh6crmofpS8yw"
+    google_analytics_measurement_id = ""
+
+  [params.ui]
+    [params.ui.nav]
+      profile = "Profile"
+      skills = "Skills"
+      education = "Education"
+      clinical_cases = "Clinical Cases"
+      cases_short = "Cases"
+      blog = "Blog"
+      contact = "Contact"
+
+    [params.ui.skills]
+      title = "Professional Skills"
+      clinical_title = "Clinical Skills"
+      digital_title = "Digital Skills"
+      soft_title = "Soft Skills"
+
+    [params.ui.education]
+      title = "Education & Timeline"
+      graduated_label = "Graduated"
+      career_timeline_title = "Career Timeline"
+      courses_title = "Courses & Certifications"
+
+    [params.ui.cases]
+      title = "Clinical Cases"
+      subtitle = "Clinical Cases Gallery"
+
+    [params.ui.blog]
+      title = "Latest Articles"
+      subtitle = "Insights and Knowledge"
+      empty_text = "No blog posts yet"
+
+    [params.ui.contact]
+      title = "Get In Touch"
+      subtitle = "Let's connect and collaborate"
+      follow_me_title = "Follow Me"
+
+    [params.ui.labels]
+      now_working_as = "Now working as"
+      at = "at"
+      phone = "Phone"
+      whatsapp = "WhatsApp"
+      email = "Email"
+      location = "Location"
+      get_directions = "Get Directions"
+      masters_degree = "Master's Degree"
+      phd_degree = "PhD Degree"
+      rights_reserved = "All rights reserved"
+
+  # Skills Section
+  [params.skills]
+    clinical = [
+      "GP skills",
+      "Operative",
+      "Endo",
+      "Fixed",
+      "Surgery",
+      "Pedi",
+      "Perio",
+      "Prosthesis"
+    ]
+    
+    digital = [
+      "Mobile photography",
+      "Power point",
+      "Editing",
+      "Documentation of cases"
+    ]
+    
+    soft = [
+      "Patient management"
+    ]
+
+  # Education Section
+  [params.education]
+    university = "Zagazig university"
+    graduation_year = "2025"
+    
+    [params.education.master]
+      obtained = false
+      title = "Master in Oral Medicine"
+      year = ""
+    
+    [params.education.phd]
+      obtained = false
+      title = "PhD in Dental Sciences"
+      year = ""
+    
+    [[params.education.timeline]]
+      year = "2020"
+      event = "Start of faculty of dentistry"
+    
+    [[params.education.timeline]]
+      year = "2025"
+      event = "Graduated"
+    
+    # Certificates (images will be uploaded via GitHub issues)
+    # [[params.education.certificates]]
+    #   title = "Advanced Endodontics Course"
+    #   image = "cert1.jpg"
+  # Clinical Cases Section
+  [[params.clinical_cases]]
+    enabled = true
+    category = "Pediatrics"
+    category_ar = "اطفال"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/f739a58a-6ef7-4330-b59c-8c90d93770cd"
+      alt = "Pulptomy of upper left D& st st crown"
+      description = "Pulptomy of upper left D& st st crown"
+      alt_ar = "تم عمل حشو عصب اطفال و تركيب طربوش معدن"
+      description_ar = "تم عمل حشو عصب اطفال و تركيب طربوش معدن"
+
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/6e362347-2646-4e56-95d2-0cc36ce2fa6a"
+      alt = "Pulptomy of upper right E&st st crown"
+      description = "Pulptomy of upper right E&st st crown"
+      alt_ar = "حشو عصب اطفال وطربوش"
+      description_ar = "حشو عصب اطفال وطربوش"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "Crown"
+    category_ar = "تركيبات ثابتة"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/3f0932db-5f47-4576-b795-1fb086a1b990"
+      alt = "Fiber post in DB canal of LL6"
+      description = "Fiber post in DB canal of LL6"
+      alt_ar = "دعامة"
+      description_ar = "دعامة"
+
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/bbd46fcf-90e7-422a-99f1-126762887896"
+      alt = "PFM crown for LL6"
+      description = "PFM crown for LL6"
+      alt_ar = "طربوش بورسلين"
+      description_ar = "طربوش بورسلين"
+
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/1e6c75cd-d7c1-493c-af02-e97f02666ee3"
+      alt = "PFM crown for LR5"
+      description = "PFM crown for LR5"
+      alt_ar = "طربوش بورسلين"
+      description_ar = "طربوش بورسلين"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "Operative"
+    category_ar = "حشو عادى تجميلى"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/bab0dabc-e864-41f2-8a13-b459f7f9f4cb"
+      alt = "Composite Restoration Class1 at LL7. &Class 2 at LL6"
+      description = "Composite Restoration Class1 at LL7. &Class 2 at LL6"
+      alt_ar = "حشو ليزر عادي"
+      description_ar = "حشو ليزر عادي"
+
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/4cc51a9c-0d93-4b76-89dd-74aee5584936"
+      alt = "Class5 of upper rigtht3 /class3 of upper left central/ class3 of upper left lateral"
+      description = "Class5 of upper rigtht3 /class3 of upper left central/ class3 of upper left lateral"
+      alt_ar = "حشو ليزر تجميلي في الأسنان الاماميه"
+      description_ar = "حشو ليزر تجميلي في الأسنان الاماميه"
+
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/eaaa7628-cdb5-48c1-ae33-1cde5c670758"
+      alt = "From canine to canine mouth rehabilitation"
+      description = "From canine to canine mouth rehabilitation"
+      alt_ar = "حشوات تجميلية للاسنان الأمامية"
+      description_ar = "حشوات تجميلية للاسنان الأمامية"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "Prosthesis"
+    category_ar = "تركيبات متحركة"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/995c3ec2-8c45-4b4a-a74a-c90192274718"
+      alt = "Complete denture"
+      description = "Complete denture"
+      alt_ar = "طقم كامل متحرك"
+      description_ar = "طقم كامل متحرك"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "Endodontics"
+    category_ar = "حشو عصب"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/5e70e5db-6570-4be8-ac9f-5ec560a5846b"
+      alt = "Endo treatment of LL5"
+      description = "Endo treatment of LL5"
+      alt_ar = "حشو عصب"
+      description_ar = "حشو عصب"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "Periodontics"
+    category_ar = "تنضيف جير"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/c212a74c-d586-4cf0-91e7-c9a4b0d6a91d"
+      alt = "Scaling & polishing"
+      description = "Scaling & polishing"
+      alt_ar = "تنضيف جير وتلميع"
+      description_ar = "تنضيف جير وتلميع"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "Surgery"
+    category_ar = "جراحة"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/d42950db-17d4-4d60-8fb8-511a3d5fda0e"
+      alt = "Extraction of upper left 7"
+      description = "Extraction of upper left 7"
+      alt_ar = "خلع"
+      description_ar = "خلع"
+      
+  # Contact Section
+  [params.contact]
+    phone = "01004552639"
+    whatsapp = "01004552639"
+    email = "amlmohey875@gmail.com"
+    instagram = "https://www.instagram.com/amola_blast23?igsh=MXZ1MHhyY3Vpbm5hOA=="
+    facebook = "https://www.facebook.com/profile.php?id=61579506925878"
+    linkedin = ""
+    
+    [params.contact.location]
+      enabled = true
+      address = "مستشفى جامعة الزقازيق"
+      latitude = "30.584492404624832"
+      longitude = "31.486568471164343"
+
+# Arabic Translations
+[params.ar]
+  [params.ar.hero]
+    name = "أمل محيي ابراهيم حسن"
+    tagline = "طبيب امتياز"
+    graduation = "تخرج 2025 - كلية طب الأسنان"
+    profile_image_alt = "صورة الملف الشخصي للدكتورة أمل محيي ابراهيم حسن"
+    
+    [params.ar.hero.current_position]
+      role = "طبيب امتياز"
+      clinic = "مستشفى جامعة الزقازيق"
+  
+[params.ar.skills]
+    clinical = [
+      "اطفال",
+      "حشوعصب",
+      "حشو عادي",
+      "جراحة",
+      "تركيبات ثابتة",
+      "امراض اللثه",
+      "تركيبات متحركة"
+    ]
+    
+    digital = [
+      "التصوير الطبي بالموبايل",
+      "استخدام برنامج power point",
+      "تحرير الصور"
+    ]
+    
+    soft = [
+      "التواصل مع المرضى سن الاطفال"
+    ]
+    
+  
+  [params.ar.education]
+    university = "جامعة الزقازيق"
+    
+    [params.ar.education.master]
+      title = "ماجستير في طب الفم"
+    
+    [params.ar.education.phd]
+      title = "دكتوراه في علوم الأسنان"
+    
+    [[params.ar.education.timeline]]
+      event = "الدخول للكليه:2020"
+    
+    [[params.ar.education.timeline]]
+      event = "التخرج:2025"  
+
+  [params.ar.contact.location]
+    address = "مستشفى جامعة الزقازيق"
+
+  [params.ar.ui]
+    [params.ar.ui.nav]
+      profile = "الملف الشخصي"
+      skills = "المهارات"
+      education = "التعليم"
+      clinical_cases = "الحالات السريرية"
+      cases_short = "الحالات"
+      blog = "المدونة"
+      contact = "التواصل"
+
+    [params.ar.ui.skills]
+      title = "المهارات المهنية"
+      clinical_title = "المهارات السريرية"
+      digital_title = "المهارات الرقمية"
+      soft_title = "المهارات الشخصية"
+
+    [params.ar.ui.education]
+      title = "التعليم والخط الزمني"
+      graduated_label = "تخرج"
+      career_timeline_title = "الخط الزمني المهني"
+      courses_title = "الدورات والشهادات"
+
+    [params.ar.ui.cases]
+      title = "الحالات السريرية"
+      subtitle = "معرض الحالات السريرية"
+
+    [params.ar.ui.blog]
+      title = "أحدث المقالات"
+      subtitle = "رؤى ومعرفة"
+      empty_text = "لا توجد مقالات بعد. أضف أول مقال في config.toml"
+
+    [params.ar.ui.contact]
+      title = "تواصل معي"
+      subtitle = "لنتواصل ونتعاون"
+      follow_me_title = "تابعني"
+
+    [params.ar.ui.labels]
+      now_working_as = "أعمل حالياً ك"
+      at = "في"
+      phone = "الهاتف"
+      whatsapp = "واتساب"
+      email = "البريد"
+      location = "الموقع"
+      get_directions = "احصل على الاتجاهات"
+      masters_degree = "درجة الماجستير"
+      phd_degree = "درجة الدكتوراه"
+      rights_reserved = "جميع الحقوق محفوظة"
