@@ -282,7 +282,7 @@ defaultContentLanguage = "en"
   # Contact Section
   [params.contact]
     phone = "01004552639"
-    whatsapp = "01004552639"
+    whatsapp = "+201004552639"
     email = "amlmohey875@gmail.com"
     instagram = "https://www.instagram.com/amola_blast23?igsh=MXZ1MHhyY3Vpbm5hOA=="
     facebook = "https://www.facebook.com/profile.php?id=61579506925878"
